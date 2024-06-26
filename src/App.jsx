@@ -22,7 +22,7 @@ const App = () => {
         <Services />
         <Clients />
         <Contact />
-        <Footer />
+        <Footer/> 
       </DarkModeProvider>
     </>
   )
