@@ -1,31 +1,23 @@
-import React from 'react'
-import { DarkModeProvider } from './components/DarkModeContext'
-import Header from './components/Header'
-import Hero from './sections/Hero'
-import About from './sections/About'
-import PopularAreas from './sections/PopularAreas'
-import Properties from './sections/Properties'
-import Services from './sections/Services'
-import Clients from './sections/Clients'
-import Contact from './sections/Contact'
-import Footer from './components/Footer'
+import React from "react";
+import { DarkModeProvider } from "./components/DarkModeContext";
+import {  HashRouter, Route, Routes } from "react-router-dom";
+import Home from "./sections/Home";
 
 const App = () => {
   return (
     <>
       <DarkModeProvider>
-        <Header />
-        <Hero />
-        <About />
-        <PopularAreas />
-        <Properties />
-        <Services />
-        <Clients />
-        <Contact />
-        <Footer/>
+      <HashRouter>
+        <Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      </HashRouter>
+
       </DarkModeProvider>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
