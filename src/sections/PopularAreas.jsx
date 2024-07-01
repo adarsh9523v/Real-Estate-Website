@@ -77,7 +77,7 @@ const PopularAreas = () => {
             >
               5K
             </h1>
-            <h1>ACTIVE<br></br>LISTINGS</h1>
+            <h1 className="text-white">ACTIVE<br></br>LISTINGS</h1>
           </div>
           <div
             data-aos="slide-up"
@@ -89,7 +89,7 @@ const PopularAreas = () => {
             >
               5K
             </h1>
-            <h1>ACTIVE<br></br>LISTINGS</h1>
+            <h1 className="text-white">ACTIVE<br></br>LISTINGS</h1>
           </div>
           <div
             data-aos="slide-up"
@@ -101,7 +101,7 @@ const PopularAreas = () => {
             >
               5K
             </h1>
-            <h1>ACTIVE<br></br>LISTINGS</h1>
+            <h1 className="text-white">ACTIVE<br></br>LISTINGS</h1>
           </div>
         </div>
       </section>
